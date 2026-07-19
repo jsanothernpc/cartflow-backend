@@ -1,0 +1,35 @@
+package com.ayushman.EccomPayment.DTO;
+
+
+import java.util.List;
+
+public class OrderItemRequest {
+    private Long productId;
+    private int quantity;
+    private double price;
+
+    public Long getProductId() {
+        return productId;
+    }
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+
+    public void setProductId(Long productId) {
+        this.productId = productId;
+    }
+
+    public int getQuantity() {
+        return quantity;
+    }
+
+    public void setQuantity(int quantity) {
+        this.quantity = quantity;
+    }
+
+}
